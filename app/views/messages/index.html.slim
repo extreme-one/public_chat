@@ -1,0 +1,12 @@
+p#notice
+  = notice
+h1
+  | Listing Messages
+table
+  tbody
+    - @messages.each do |message|
+      tr
+        td
+          = message.body
+br
+ = render 'form'
