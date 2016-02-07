@@ -14,3 +14,9 @@
  *= require bootstrap.min
  *= require_self
  */
+
+body{
+  width: 90%;
+  background: url('roses-single-branch.jpg');
+  background-size: cover;
+}
